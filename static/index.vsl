@@ -1,0 +1,17 @@
+<html>
+<head>
+    <meta charset="utf-8">
+    <link href="/static/style.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+    <form method = "post" action = "/">
+    <input type = "text" name = "film">
+    <input type = "submit" value = "Искать">
+    <ul>
+        #foreach($i in $list)
+        <li><a href = "/res?id=${i.id}">${i}</a>
+        #end
+    </ul>
+    </form>
+</body>
+</html>
