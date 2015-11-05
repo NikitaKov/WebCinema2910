@@ -4,7 +4,7 @@ import java.util.Scanner;
 public class Main {
 
     public static void main(String[] args) {
-        Hall[] halls = {new Hall(10, 20, 30), new Hall(20, 20, 20)};
+        Hall[] halls = {new Hall(10, 10, 10), new Hall(7, 10, 13)};
         Seance[] seances = {new Seance(1, "Фильм 1", "18:00", 1), new Seance(2, "Фильм 2", "18:00", 2)};
         Cinema cinema = new Cinema(halls, seances);
 

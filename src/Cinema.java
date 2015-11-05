@@ -38,7 +38,8 @@ public class Cinema {
             if ((point.row == row) && (point.seat == seat))
                 return false;
         }
-        Point [] point = {new Point (seance.getId(), row, seat)};
+        Point point = new Point (seance.getId(), row, seat);
+        seance.getReserved().add(point);
         return  true;
     }
 

@@ -1,41 +1,50 @@
-Thu Oct 29 19:17:16 MSK 2015  [debug] AvalonLogSystem initialized using logfile 'velocity.log'
-Thu Oct 29 19:17:16 MSK 2015   [info] ************************************************************** 
-Thu Oct 29 19:17:16 MSK 2015   [info] Starting Jakarta Velocity v1.4
-Thu Oct 29 19:17:16 MSK 2015   [info] RuntimeInstance initializing.
-Thu Oct 29 19:17:16 MSK 2015   [info] Default Properties File: org\apache\velocity\runtime\defaults\velocity.properties
-Thu Oct 29 19:17:16 MSK 2015   [info] Trying to use logger class org.apache.velocity.runtime.log.AvalonLogSystem
-Thu Oct 29 19:17:16 MSK 2015   [info] Using logger class org.apache.velocity.runtime.log.AvalonLogSystem
-Thu Oct 29 19:17:16 MSK 2015   [info] Default ResourceManager initializing. (class org.apache.velocity.runtime.resource.ResourceManagerImpl)
-Thu Oct 29 19:17:16 MSK 2015   [info] Resource Loader Instantiated: org.apache.velocity.runtime.resource.loader.FileResourceLoader
-Thu Oct 29 19:17:16 MSK 2015   [info] FileResourceLoader : initialization starting.
-Thu Oct 29 19:17:16 MSK 2015   [info] FileResourceLoader : adding path '.'
-Thu Oct 29 19:17:16 MSK 2015   [info] FileResourceLoader : initialization complete.
-Thu Oct 29 19:17:16 MSK 2015   [info] ResourceCache : initialized. (class org.apache.velocity.runtime.resource.ResourceCacheImpl)
-Thu Oct 29 19:17:16 MSK 2015   [info] Default ResourceManager initialization complete.
-Thu Oct 29 19:17:16 MSK 2015   [info] Loaded System Directive: org.apache.velocity.runtime.directive.Literal
-Thu Oct 29 19:17:16 MSK 2015   [info] Loaded System Directive: org.apache.velocity.runtime.directive.Macro
-Thu Oct 29 19:17:16 MSK 2015   [info] Loaded System Directive: org.apache.velocity.runtime.directive.Parse
-Thu Oct 29 19:17:16 MSK 2015   [info] Loaded System Directive: org.apache.velocity.runtime.directive.Include
-Thu Oct 29 19:17:16 MSK 2015   [info] Loaded System Directive: org.apache.velocity.runtime.directive.Foreach
-Thu Oct 29 19:17:16 MSK 2015   [info] Created: 20 parsers.
-Thu Oct 29 19:17:16 MSK 2015   [info] Velocimacro : initialization starting.
-Thu Oct 29 19:17:16 MSK 2015   [info] Velocimacro : adding VMs from VM library template : VM_global_library.vm
-Thu Oct 29 19:17:16 MSK 2015  [error] ResourceManager : unable to find resource 'VM_global_library.vm' in any resource loader.
-Thu Oct 29 19:17:16 MSK 2015   [info] Velocimacro : error using  VM library template VM_global_library.vm : org.apache.velocity.exception.ResourceNotFoundException: Unable to find resource 'VM_global_library.vm'
-Thu Oct 29 19:17:16 MSK 2015   [info] Velocimacro :  VM library template macro registration complete.
-Thu Oct 29 19:17:16 MSK 2015   [info] Velocimacro : allowInline = true : VMs can be defined inline in templates
-Thu Oct 29 19:17:16 MSK 2015   [info] Velocimacro : allowInlineToOverride = false : VMs defined inline may NOT replace previous VM definitions
-Thu Oct 29 19:17:16 MSK 2015   [info] Velocimacro : allowInlineLocal = false : VMs defined inline will be  global in scope if allowed.
-Thu Oct 29 19:17:16 MSK 2015   [info] Velocimacro : messages on  : VM system will output logging messages
-Thu Oct 29 19:17:16 MSK 2015   [info] Velocimacro : autoload off  : VM system will not automatically reload global library macros
-Thu Oct 29 19:17:16 MSK 2015   [info] Velocimacro : initialization complete.
-Thu Oct 29 19:17:16 MSK 2015   [info] Velocity successfully started.
-Thu Oct 29 19:17:16 MSK 2015   [info] ResourceManager : found ./static/index.vsl with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
-Thu Oct 29 19:17:16 MSK 2015   [info] ResourceManager : found ./static/index.vsl with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
-Thu Oct 29 19:17:16 MSK 2015   [info] ResourceManager : found ./static/index.vsl with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
-Thu Oct 29 19:17:21 MSK 2015   [info] ResourceManager : found ./static/reserv.vsl with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
-Thu Oct 29 19:17:21 MSK 2015   [info] ResourceManager : found ./static/index.vsl with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
-Thu Oct 29 19:17:22 MSK 2015   [info] ResourceManager : found ./static/index.vsl with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
-Thu Oct 29 19:17:22 MSK 2015   [info] ResourceManager : found ./static/reserv.vsl with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
-Thu Oct 29 19:17:22 MSK 2015   [info] ResourceManager : found ./static/index.vsl with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
-Thu Oct 29 19:17:23 MSK 2015   [info] ResourceManager : found ./static/index.vsl with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
+Thu Nov 05 19:27:02 MSK 2015  [debug] AvalonLogSystem initialized using logfile 'velocity.log'
+Thu Nov 05 19:27:02 MSK 2015   [info] ************************************************************** 
+Thu Nov 05 19:27:02 MSK 2015   [info] Starting Jakarta Velocity v1.4
+Thu Nov 05 19:27:02 MSK 2015   [info] RuntimeInstance initializing.
+Thu Nov 05 19:27:02 MSK 2015   [info] Default Properties File: org\apache\velocity\runtime\defaults\velocity.properties
+Thu Nov 05 19:27:02 MSK 2015   [info] Trying to use logger class org.apache.velocity.runtime.log.AvalonLogSystem
+Thu Nov 05 19:27:02 MSK 2015   [info] Using logger class org.apache.velocity.runtime.log.AvalonLogSystem
+Thu Nov 05 19:27:02 MSK 2015   [info] Default ResourceManager initializing. (class org.apache.velocity.runtime.resource.ResourceManagerImpl)
+Thu Nov 05 19:27:02 MSK 2015   [info] Resource Loader Instantiated: org.apache.velocity.runtime.resource.loader.FileResourceLoader
+Thu Nov 05 19:27:02 MSK 2015   [info] FileResourceLoader : initialization starting.
+Thu Nov 05 19:27:02 MSK 2015   [info] FileResourceLoader : adding path '.'
+Thu Nov 05 19:27:02 MSK 2015   [info] FileResourceLoader : initialization complete.
+Thu Nov 05 19:27:02 MSK 2015   [info] ResourceCache : initialized. (class org.apache.velocity.runtime.resource.ResourceCacheImpl)
+Thu Nov 05 19:27:02 MSK 2015   [info] Default ResourceManager initialization complete.
+Thu Nov 05 19:27:02 MSK 2015   [info] Loaded System Directive: org.apache.velocity.runtime.directive.Literal
+Thu Nov 05 19:27:02 MSK 2015   [info] Loaded System Directive: org.apache.velocity.runtime.directive.Macro
+Thu Nov 05 19:27:02 MSK 2015   [info] Loaded System Directive: org.apache.velocity.runtime.directive.Parse
+Thu Nov 05 19:27:02 MSK 2015   [info] Loaded System Directive: org.apache.velocity.runtime.directive.Include
+Thu Nov 05 19:27:02 MSK 2015   [info] Loaded System Directive: org.apache.velocity.runtime.directive.Foreach
+Thu Nov 05 19:27:02 MSK 2015   [info] Created: 20 parsers.
+Thu Nov 05 19:27:02 MSK 2015   [info] Velocimacro : initialization starting.
+Thu Nov 05 19:27:02 MSK 2015   [info] Velocimacro : adding VMs from VM library template : VM_global_library.vm
+Thu Nov 05 19:27:02 MSK 2015  [error] ResourceManager : unable to find resource 'VM_global_library.vm' in any resource loader.
+Thu Nov 05 19:27:02 MSK 2015   [info] Velocimacro : error using  VM library template VM_global_library.vm : org.apache.velocity.exception.ResourceNotFoundException: Unable to find resource 'VM_global_library.vm'
+Thu Nov 05 19:27:02 MSK 2015   [info] Velocimacro :  VM library template macro registration complete.
+Thu Nov 05 19:27:02 MSK 2015   [info] Velocimacro : allowInline = true : VMs can be defined inline in templates
+Thu Nov 05 19:27:02 MSK 2015   [info] Velocimacro : allowInlineToOverride = false : VMs defined inline may NOT replace previous VM definitions
+Thu Nov 05 19:27:02 MSK 2015   [info] Velocimacro : allowInlineLocal = false : VMs defined inline will be  global in scope if allowed.
+Thu Nov 05 19:27:02 MSK 2015   [info] Velocimacro : messages on  : VM system will output logging messages
+Thu Nov 05 19:27:02 MSK 2015   [info] Velocimacro : autoload off  : VM system will not automatically reload global library macros
+Thu Nov 05 19:27:02 MSK 2015   [info] Velocimacro : initialization complete.
+Thu Nov 05 19:27:02 MSK 2015   [info] Velocity successfully started.
+Thu Nov 05 19:27:02 MSK 2015   [info] ResourceManager : found ./static/index.vsl with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
+Thu Nov 05 19:27:02 MSK 2015   [info] ResourceManager : found ./static/index.vsl with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
+Thu Nov 05 19:27:03 MSK 2015   [info] ResourceManager : found ./static/index.vsl with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
+Thu Nov 05 19:27:03 MSK 2015   [info] ResourceManager : found ./static/index.vsl with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
+Thu Nov 05 19:27:04 MSK 2015   [info] ResourceManager : found ./static/reserv.vsl with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
+Thu Nov 05 19:27:04 MSK 2015   [info] ResourceManager : found ./static/index.vsl with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
+Thu Nov 05 19:27:09 MSK 2015   [info] ResourceManager : found ./static/result.vsl with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
+Thu Nov 05 19:27:09 MSK 2015   [info] ResourceManager : found ./static/index.vsl with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
+Thu Nov 05 19:27:10 MSK 2015   [info] ResourceManager : found ./static/index.vsl with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
+Thu Nov 05 19:27:10 MSK 2015   [info] ResourceManager : found ./static/index.vsl with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
+Thu Nov 05 19:27:11 MSK 2015   [info] ResourceManager : found ./static/index.vsl with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
+Thu Nov 05 19:27:11 MSK 2015   [info] ResourceManager : found ./static/index.vsl with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
+Thu Nov 05 19:27:12 MSK 2015   [info] ResourceManager : found ./static/reserv.vsl with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
+Thu Nov 05 19:27:12 MSK 2015   [info] ResourceManager : found ./static/index.vsl with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
+Thu Nov 05 19:27:13 MSK 2015   [info] ResourceManager : found ./static/result.vsl with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
+Thu Nov 05 19:27:13 MSK 2015   [info] ResourceManager : found ./static/index.vsl with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
+Thu Nov 05 19:27:15 MSK 2015   [info] ResourceManager : found ./static/index.vsl with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
+Thu Nov 05 19:27:15 MSK 2015   [info] ResourceManager : found ./static/index.vsl with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
